@@ -17,7 +17,7 @@ I punti salienti che differiscono da una configurazione standard secondo il prof
 
 ## metadata.xml
 
-* Nei tag KeyDescriptor va aggiunto e valorizzato l'attributo `use' (ad es. `signing`)
+* Nei tag KeyDescriptor va aggiunto e valorizzato l'attributo `use` (ad es. `signing`)
 * Va inserito il tag `AttributeConsumingService` con tutti gli attributi richiesti dal servizio (tag `RequestedAttribute`)
 
 ## attribute-map.xml
@@ -27,4 +27,5 @@ Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AG
 # Riferimenti
 
 [1] Tabella attributi AGID: http://www.agid.gov.it/sites/default/files/regole_tecniche/tabella_attributi_idp_v1_0.pdf
+
 [2] Regole tecniche SPID: http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf
