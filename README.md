@@ -12,8 +12,11 @@ File:
 ## shibboleth2.xml
 
 I punti salienti che differiscono da una configurazione standard secondo il profilo SAML2int sono:
-* AuthnRequest con specificato l'attributo `AttributeConsumingServiceIndex` che corrisponde al set di attributi che il Service Provider richiedera' al Identity provider
-* RequestedAuthnContext con indicato il LoA richiesto per il servizio (`AuthnContextClassRef`)
+* SessionInitiator custom con attributo `NameIDFormat` valorizzato a:
+  `urn:oasis:names:tc:SAML:2.0:nameid-format:transient`
+* tag `AuthnRequest` con specificato l'attributo `AttributeConsumingServiceIndex` che corrisponde al set di attributi che il Service Provider richiedera' al Identity provider
+* tag `RequestedAuthnContext` con indicato il LoA richiesto per il servizio (`AuthnContextClassRef`), ad es.:
+  `urn:oasis:names:tc:SAML:2.0:assertion`
 
 ## metadata.xml
 
