@@ -20,7 +20,7 @@ I punti salienti che differiscono da una configurazione standard secondo il prof
 
 * tag `RequestedAuthnContext` con indicato il LoA richiesto per il servizio (`AuthnContextClassRef`), ad es.:
 
-  `urn:oasis:names:tc:SAML:2.0:assertion`
+  `urn:oasis:names:tc:SAML:2.0:ac:classes:SpidL1`
 
 ## metadata.xml
 
