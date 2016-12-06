@@ -1,13 +1,13 @@
 # SPID-Shibboleth-SP
 
-Configurazione di base per registrare un Service Provider Shibboleth in SPID (rif. Regole tecniche SPID [2]).
+Configurazione di base per registrare un Service Provider Shibboleth in SPID (rif. Regole tecniche SPID [1]).
 
 File:
 * shibboleth2.xml
 * metadata.xml
 * attribute-map.xml
 
-# SAML-SPID vs SAML2int [0]
+# SAML-SPID vs SAML2int [2]
 
 ## shibboleth2.xml
 
@@ -29,11 +29,11 @@ I punti salienti che differiscono da una configurazione standard secondo il prof
 
 ## attribute-map.xml
 
-Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [1]
+Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [3]
 
 # Riferimenti
-[0] SAML2int profile v0.2.1 http://saml2int.org/profile/current/
+[1] SAML2int profile v0.2.1 http://saml2int.org/profile/current/
 
-[1] Tabella attributi AGID: http://www.agid.gov.it/sites/default/files/regole_tecniche/tabella_attributi_idp_v1_0.pdf
+[2] Tabella attributi AGID: http://www.agid.gov.it/sites/default/files/regole_tecniche/tabella_attributi_idp_v1_0.pdf
 
-[2] Regole tecniche SPID: http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf
+[3] Regole tecniche SPID: http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf
