@@ -29,8 +29,8 @@ I punti salienti che differiscono da una configurazione standard secondo il prof
 
 ## attribute-map.xml
 
-Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [3]
-
+Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [3]. Il formato di default previsto dalla tabella AGID e' `basic`, ma con gli IdP di test di SPID potrebbe essere necessario usare `unspecified`, nel caso scommentare le definizioni corrispondenti in `attribute-map.xml`.
+ 
 # Riferimenti
 [1] SAML2int profile v0.2.1 http://saml2int.org/profile/current/
 
