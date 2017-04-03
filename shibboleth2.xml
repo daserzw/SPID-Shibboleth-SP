@@ -58,7 +58,7 @@
 		    AttributeConsumingServiceIndex="1"
 		    >
 		  <samlp:RequestedAuthnContext Comparison="exact" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
-		    <saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:SpidL1</saml:AuthnContextClassRef>
+		    <saml:AuthnContextClassRef>https://www.spid.gov.it/SpidL1</saml:AuthnContextClassRef>
 		  </samlp:RequestedAuthnContext>
 		</samlp:AuthnRequest>
 	      </SessionInitiator>

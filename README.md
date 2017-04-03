@@ -1,6 +1,6 @@
 # SPID-Shibboleth-SP
 
-Configurazione di base per registrare un Service Provider Shibboleth in SPID (rif. Regole tecniche SPID [1]).
+Configurazione di base per registrare un Service Provider Shibboleth in SPID (rif. Regole tecniche SPID [1] e Errata Corrige 24/06/2016 [2]).
 
 File:
 * shibboleth2.xml
@@ -11,7 +11,7 @@ File:
 
 ## shibboleth2.xml
 
-I punti salienti che differiscono da una configurazione standard secondo il profilo SAML2int [2] sono:
+I punti salienti che differiscono da una configurazione standard secondo il profilo SAML2int [3] sono:
 * SessionInitiator custom con attributo `NameIDFormat` valorizzato a:
 
   `urn:oasis:names:tc:SAML:2.0:nameid-format:transient`
@@ -20,7 +20,7 @@ I punti salienti che differiscono da una configurazione standard secondo il prof
 
 * tag `RequestedAuthnContext` con indicato il LoA richiesto per il servizio (`AuthnContextClassRef`), ad es.:
 
-  `urn:oasis:names:tc:SAML:2.0:ac:classes:SpidL1`
+  `<saml:AuthnContextClassRef>https://www.spid.gov.it/SpidL1</saml:AuthnContextClassRef>`
 
 ## metadata.xml
 
@@ -29,11 +29,13 @@ I punti salienti che differiscono da una configurazione standard secondo il prof
 
 ## attribute-map.xml
 
-Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [3]. Il formato di default previsto dalla tabella AGID e' `basic`, ma con gli IdP di test di SPID potrebbe essere necessario usare `unspecified`, nel caso scommentare le definizioni corrispondenti in `attribute-map.xml`.
+Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [4]. Il formato di default previsto dalla tabella AGID e' `basic`, ma con gli IdP di test di SPID potrebbe essere necessario usare `unspecified`, nel caso scommentare le definizioni corrispondenti in `attribute-map.xml`.
  
 # Riferimenti
 [1] Regole tecniche SPID: http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf
 
-[2] SAML2int profile v0.2.1 http://saml2int.org/profile/current/
+[2] REGOLAMENTO RECANTE LE REGOLE TECNICHE – Errata Corrige (Avviso nr. 5 24 giugno 2016): http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n5-regole-tecniche-errata-corrige.pdf
 
-[3] Tabella attributi AGID: http://www.agid.gov.it/sites/default/files/regole_tecniche/tabella_attributi_idp_v1_0.pdf
+[3] SAML2int profile v0.2.1: http://saml2int.org/profile/current/
+
+[4] Tabella attributi AGID: http://www.agid.gov.it/sites/default/files/regole_tecniche/tabella_attributi_idp_v1_0.pdf
