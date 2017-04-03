@@ -29,7 +29,7 @@ I punti salienti che differiscono da una configurazione standard secondo il prof
 
 ## attribute-map.xml
 
-Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [4]. Il formato di default previsto dalla tabella AGID e' `basic`, ma con gli IdP di test di SPID potrebbe essere necessario usare `unspecified`, nel caso scommentare le definizioni corrispondenti in `attribute-map.xml`.
+Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AGID [4]. Il formato di default previsto dalla tabella AGID e' `basic`, ma con gli IdP di test di SPID potrebbe essere necessario usare `unspecified`, nel caso aggiungere le definizioni corrispondenti in `attribute-map.xml`.
  
 # Riferimenti
 [1] Regole tecniche SPID: http://www.agid.gov.it/sites/default/files/circolari/spid-regole_tecniche_v1.pdf
