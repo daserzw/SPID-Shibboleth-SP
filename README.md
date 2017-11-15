@@ -1,6 +1,7 @@
 # SPID-Shibboleth-SP
 
-Configurazione di base per registrare un Service Provider Shibboleth in SPID (rif. Regole tecniche SPID [1] e Errata Corrige 24/06/2016 [2]).
+Configurazione di base per registrare un Service Provider Shibboleth in SPID (rif. Regole tecniche SPID [1], Errata 
+Corrige 24/06/2016 [2] e Documento riassuntivo del 29/07/2016 [5]).
 
 File:
 * shibboleth2.xml
@@ -39,3 +40,5 @@ Vanno inseriti e mappati tutti gli attributi definiti nella tabella attributi AG
 [3] SAML2int profile v0.2.1: http://saml2int.org/profile/current/
 
 [4] Tabella attributi AGID: http://www.agid.gov.it/sites/default/files/regole_tecniche/tabella_attributi_idp_v1_0.pdf
+
+[5] Documento riassuntivo per la preparazione del metadato (29/07/2016): http://www.agid.gov.it/sites/default/files/documentazione/spid-avviso-n6-note-sul-dispiegamento-di-spid-presso-i-gestori-di-servizi-v1.pdf
