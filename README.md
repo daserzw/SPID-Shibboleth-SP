@@ -1,3 +1,8 @@
+**ATTENZIONE: Questo repository non e' piu' manutenuto. Per informazioni ufficiali su SPID e Shibboleth SP vedi:**
+ * https://github.com/italia/spid-sp-shibboleth
+ * https://github.com/italia/spid-auth-docker
+
+
 # SPID-Shibboleth-SP
 
 Configurazione di base per registrare un Service Provider Shibboleth in SPID (rif. Regole tecniche SPID [1], Errata 
